@@ -1,0 +1,37 @@
+version: 0.1.0
+duke_executable: ./main
+total_nodes: 7
+# logging_file: cluster.log
+
+seed_node:
+  id: a
+  address: localhost:8000
+  api_at: localhost:9000
+
+non_seed_nodes:
+  # first_peer: a
+
+  nodes:
+    - id: b
+      address: localhost:8001
+      api_at: localhost:9001
+
+    - id: c
+      address: localhost:8002
+      api_at: localhost:9002
+
+    - id: d
+      address: localhost:8003
+      api_at: localhost:9003
+
+    - id: e
+      address: localhost:8004
+      api_at: localhost:9004
+
+    - id: f
+      address: localhost:8005
+      api_at: localhost:9005
+
+    - id: g
+      address: localhost:8006
+      api_at: localhost:9006
