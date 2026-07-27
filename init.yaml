@@ -1,8 +1,11 @@
 version: 0.1.0
 duke_executable: ./main
 total_nodes: 7
-# logging_file: cluster.log
-
+logging_file: cluster.log
+replication_factor: 3
+# use_docker: true
+# docker_image: duke
+#
 seed_node:
   id: a
   address: localhost:8000
